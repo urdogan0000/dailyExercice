@@ -9,11 +9,11 @@ dailyExcersize/
 ├── day1/                    # Day 1 exercises
 │   ├── algorithm/           # Algorithm problems
 │   │   └── problem.ts       # Two Sum problem
-├── day2/                    # Day 2 exercises
+├── day02/                   # Day 2 exercises
 │   └── algorithm/           # Valid Parentheses problem
-├── day3/                    # Day 3 exercises
+├── day03/                   # Day 3 exercises
 │   └── algorithm/           # Merge Two Sorted Lists
-├── day4 ... day30           # Additional days (unique algorithm templates)
+├── day04 ... day30          # Additional days (unique algorithm templates)
 ├── package.json             # Dependencies and scripts
 ├── tsconfig.json           # TypeScript configuration
 ├── jest.config.js          # Testing configuration
@@ -44,7 +44,8 @@ cp day1/backend/env.example day1/backend/.env
 ```bash
 # Run a specific day's algorithm problem
 npx ts-node day1/algorithm/problem.ts
-npx ts-node day2/algorithm/problem.ts
+npx ts-node day01/algorithm/problem.ts
+npx ts-node day02/algorithm/problem.ts
 npx ts-node day10/algorithm/problem.ts
 npx ts-node day20/algorithm/problem.ts
 npx ts-node day30/algorithm/problem.ts

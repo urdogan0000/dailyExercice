@@ -1,12 +1,12 @@
 # Daily Algorithm Practice (30 Days)
 
-A structured 30-day coding practice repository focused entirely on algorithm problems in TypeScript. Each day contains one interview-style problem. Backend exercises have been removed per your request.
+A structured 30-day coding practice repository focused entirely on algorithm problems in TypeScript. Each day contains one interview-style problem.
 
 ## 📁 Structure
 
 ```
 dailyExcersize/
-├── day1/                    # Day 1 exercises
+├── day01/                   # Day 1 exercises
 │   ├── algorithm/           # Algorithm problems
 │   │   └── problem.ts       # Two Sum problem
 ├── day02/                   # Day 2 exercises
@@ -34,33 +34,18 @@ dailyExcersize/
 npm install
 ```
 
-3. Set up environment variables (copy from examples):
-```bash
-cp day1/backend/env.example day1/backend/.env
-# Repeat for other days as needed
-```
-
 ### Running the Exercises
 ```bash
 # Run a specific day's algorithm problem
-npx ts-node day1/algorithm/problem.ts
 npx ts-node day01/algorithm/problem.ts
 npx ts-node day02/algorithm/problem.ts
 npx ts-node day10/algorithm/problem.ts
 npx ts-node day20/algorithm/problem.ts
 npx ts-node day30/algorithm/problem.ts
+```
 
 ### Daily Non-Coding Interview Questions
 Each day also includes an `interview.md` with a mid-level technical non-coding interview question (e.g., debugging prod issues, API versioning, incident response, trade-off decisions). Review and answer it along with coding the algorithm.
-```
-
-#### Backend Exercises
-```bash
-# Run a specific day's backend server
-npx ts-node day1/backend/server.ts
-npx ts-node day2/backend/server.ts
-# ... and so on
-```
 
 #### Run All Tests
 ```bash
@@ -71,15 +56,12 @@ npm test
 
 ### Day 1
 - **Algorithm**: Two Sum (Hash Map approach)
-- **Backend**: Basic Express server with middleware
 
 ### Day 2
 - **Algorithm**: Valid Parentheses (Stack approach)
-- **Backend**: CRUD API with in-memory storage
 
 ### Day 3
 - **Algorithm**: Merge Two Sorted Lists (Linked List)
-- **Backend**: Middleware system and authentication
 
 ### Days 4-10
 - Maximum Subarray, Climbing Stairs, Best Time to Buy/Sell, Tree Traversal, Longest Common Prefix, Remove Duplicates, Search Insert Position
@@ -115,13 +97,6 @@ npm test
 - Time and space complexity analysis
 - Problem-solving strategies
 
-### Backend Skills
-- Express.js fundamentals
-- Middleware development
-- Authentication and authorization
-- API design and development
-- Error handling and validation
-- Testing strategies
 
 ## 🔧 Configuration
 
@@ -152,7 +127,6 @@ Jest configuration includes:
 Feel free to:
 - Add more test cases
 - Improve problem descriptions
-- Add additional backend exercises
 - Suggest new algorithm problems
 
 ## 📄 License

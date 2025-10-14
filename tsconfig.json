@@ -23,18 +23,7 @@
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
         "moduleResolution": "node",
-        "baseUrl": "./",
-        "paths": {
-            "@/*": [
-                "src/*"
-            ],
-            "@algorithms/*": [
-                "*/algorithm/*"
-            ],
-            "@backend/*": [
-                "*/backend/*"
-            ]
-        }
+        "baseUrl": "./"
     },
     "include": [
         "day*/**/*"

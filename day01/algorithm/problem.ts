@@ -30,10 +30,21 @@
  */
 
 export function twoSum(nums: number[], target: number): number[] {
-    // TODO: Implement your solution here
-    // Hint: Consider using a hash map for O(n) time complexity
-    return [];
+  let map = new Map<number, number>(); // key = number, value = index
+
+  for (let i = 0; i < nums.length; i++) {
+    const complement = target - nums[i];
+
+    if (map.has(complement)) {
+      return [map.get(complement) as number, i];
+    }
+
+    map.set(nums[i], i);
+  }
+
+  return [];
 }
+
 
 // Test cases
 if (require.main === module) {
